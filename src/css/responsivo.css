@@ -1,0 +1,38 @@
+@media (max-width: 620px) {
+    .cabecalho{
+        padding: 30px 0;
+    }
+    .personagens-slider{
+        padding: 0 15px;
+        gap: 10px;
+    }
+    .btn-seta{
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+    }
+    .lista-personagens{
+        height: 480px;
+    }
+}
+
+@media (max-width: 460px) {
+    .cabecalho{
+        padding: 20px 0;
+    }
+    .personagens-slider{
+        padding: 0 15px;
+        gap: 10px;
+    }
+    .btn-seta{
+        width: 5px;
+        height: 5px;
+        padding: 0;
+    }
+    .cartao .descricao .texto{
+    font-size: 14px;
+    text-align: justify;
+    max-height: 50px;
+    overflow-y: auto;
+    }
+}
